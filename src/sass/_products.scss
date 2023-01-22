@@ -65,7 +65,6 @@
     background: #aec6a5;
     box-shadow: 0px 5.26027px 19.726px rgba(212, 20, 67, 0.1);
     border-radius: 15.7808px;
-    padding-bottom: 20px;
   }
   
   @media screen and (max-width: 480px) {
@@ -223,11 +222,6 @@
       justify-content: center;
       gap: 16px;
     }
-    .product-wrapper {
-      width: 224px;
-      height: 428px;
-      padding-bottom: 20px;
-    }
     .product-list-tittle {
       margin-top: 16px;
     }
@@ -254,8 +248,8 @@
     }
   
     .product-wrapper {
-      max-width: 224px;
-      max-height: 428px;
+      width: 224px;
+      height: 428px;
       background: #aec6a5;
       box-shadow: 0px 5.26027px 19.726px rgba(212, 20, 67, 0.1);
       border-radius: 15.7808px;
@@ -267,10 +261,6 @@
   
     .milkshakes {
       background: #d6936d;
-    }
-  
-    .product-svg {
-      position: absolute;
     }
   }
   
