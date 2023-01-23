@@ -1,130 +1,138 @@
+.adv {
+  background-color: var(--background-color);
+}
+.container {
+  min-width: 320px;
+}
+.adv-title {
+  display: none;
+}
+.adv-h3 {
+  color: var(--first-color);
+  height: 44px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.22;
+  margin: 0 auto;
+  padding-bottom: 16px;
+  text-align: center;
+  letter-spacing: 1.44px;
+}
+.adv-list {
+  padding-top: 60px;
+  padding-bottom: 68px;
+}
+.adv-list > li {
+  list-style: none;
+  margin: 0 auto;
+}
+.adv-list li:not(:last-child) {
+  margin-bottom: 28px;
+}
+.adv-icon-place {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f8d24e;
 
-  .container {
-    min-width: 320px;
-    background-color: var(--background-color);
-  }
-  .adv-title {
-    display: none;
-  }
-  .adv-h3 {
-    color: var(--first-color);
-    height: 44px;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.22;
-    margin: 0 auto;
-    padding-bottom: 16px;
-    text-align: center;
-    letter-spacing: 1.44px;
-  }
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.adv-icon {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.adv-list p {
+  color: var(--first-color);
+  width: 230px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+  margin: 0 auto;
+  /* margin-top: auto; */
+  padding-bottom: 16px;
+}
+/* ============Mobile============ */
+
+@media screen and (min-width: 480px) {
   .adv-list {
-    padding-top: 60px;
-    padding-bottom: 68px;
+    padding-bottom: 81px;
   }
+
   .adv-list > li {
-    list-style: none;
-    margin: 0 auto;
+    width: 230px;
+    height: 166px;
   }
-  .adv-icon-place {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #f8d24e;
-  
-    margin: 0 auto;
-    margin-bottom: 16px;
-  }
-  .adv-icon {
-    width: 36px;
-    height: 36px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .adv-list li:not(:last-child) {
+    margin-bottom: 32px;
   }
   .adv-list p {
-    color: var(--first-color);
-    width: 230px;
+    width: 100%;
     height: 40px;
     font-size: 12px;
-    line-height: 1.7;
-    text-align: center;
-    margin: 0 auto;
-    /* margin-top: auto; */
-    padding-bottom: 16px;
+    padding-bottom: 0;
   }
-  /* ============Mobile============ */
-  
-  @media screen and (min-width: 480px) {
-    .adv-list {
-      padding-bottom: 81px;
-    }
-  
-    .adv-list > li {
-      width: 230px;
-      height: 166px;
-      margin-bottom: 16px;
-    }
-    .adv-list p {
-      width: 100%;
-      height: 40px;
-      font-size: 12px;
-      padding-bottom: 0;
-    }
+}
+
+/* ============Tablet============ */
+
+@media screen and (min-width: 768px) {
+  .adv-h3 {
+    font-size: 48px;
+    height: 59px;
+    letter-spacing: 1.92px;
   }
-  
-  /* ============Tablet============ */
-  
-  @media screen and (min-width: 768px) {
-    .adv-h3 {
-      font-size: 48px;
-      height: 59px;
-      letter-spacing: 1.92px;
-    }
-  
-    .adv-list {
-      display: flex;
-      row-gap: 50px;
-      padding-bottom: 178px;
-    }
-    .adv-list > li {
-      width: 152px;
-      height: 241px;
-      padding-bottom: 0;
-      margin-bottom: 0;
-    }
-    .adv-list p {
-      width: 100%;
-      height: 88px;
-      font-size: 14px;
-      line-height: 1.74;
-      padding-bottom: 0;
-    }
+
+  .adv-list {
+    display: flex;
+    row-gap: 50px;
+    padding-bottom: 178px;
   }
-  
-  /* ============Desctop============ */
-  
-  @media screen and (min-width: 1200px) {
-    .adv-h3 {
-      font-size: 58px;
-      height: 71px;
-      letter-spacing: 2.32px;
-    }
-  
-    .adv-list > li {
-      width: 368px;
-      height: 225px;
-    }
-    .adv-list {
-      row-gap: 32px;
-    }
-    .adv-list p {
-      width: 100%;
-      height: 52px;
-      font-size: 16px;
-      line-height: 1.74;
-      padding-bottom: 0;
-      letter-spacing: 0.32px;
-    }
+  .adv-list > li {
+    width: 152px;
+    height: 241px;
+    padding-bottom: 0;
   }
+  .adv-list li:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .adv-list p {
+    width: 100%;
+    height: 88px;
+    font-size: 14px;
+    line-height: 1.74;
+    padding-bottom: 0;
+  }
+}
+
+/* ============Desctop============ */
+
+@media screen and (min-width: 1200px) {
+  .adv-h3 {
+    font-size: 58px;
+    height: 71px;
+    letter-spacing: 2.32px;
+  }
+
+  .adv-list > li {
+    width: 368px;
+    height: 225px;
+  }
+  .adv-list {
+    row-gap: 32px;
+  }
+  .adv-list p {
+    width: 100%;
+    height: 52px;
+    font-size: 16px;
+    line-height: 1.74;
+    padding-bottom: 0;
+    letter-spacing: 0.32px;
+  }
+}
