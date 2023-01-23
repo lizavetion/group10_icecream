@@ -60,13 +60,13 @@
 
 .text-coffee {
   width: 170px;
-    margin-bottom: 69px;
-  }
+  margin-bottom: 69px;
+}
 
-  .text-milkshakes {
-    width: 170px;
-    margin-bottom: 76px;
-  }
+.text-milkshakes {
+  width: 170px;
+  margin-bottom: 76px;
+}
 
 .product-wrapper {
   display: flex;
@@ -78,6 +78,17 @@
   box-shadow: 0px 5.26027px 19.726px rgba(212, 20, 67, 0.1);
   border-radius: 15.7808px;
   padding-bottom: 24px;
+}
+.modul-btn {
+  background-color: #aec6a5;
+  border: transparent;
+  cursor: pointer;
+}
+.coffee-btn {
+  background: #EFD478;
+}
+.milkshakes-btn {
+background-color: #D6936D; 
 }
 
 @media screen and (max-width: 480px) {
@@ -133,7 +144,6 @@
   position: relative;
   bottom: 11px;
 }
-
 
 /* ===============BACKGROUND_IMG=================== */
 
@@ -297,7 +307,6 @@
     line-height: 1.7;
     margin: auto;
     margin-bottom: 89px;
-    
   }
   .product-wrapper {
     width: 370px;
