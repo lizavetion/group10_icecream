@@ -1,3 +1,13 @@
+:root {
+  --first-color: #fcfcfc;
+  --second-color: #131313;
+  --background-color: #84a178;
+  --default-btn-color: #f8d24e;
+  --hover-btn-color: #0a8817;
+  --disabled-btn-color: #ababab;
+  --accent-text-color: #d6936d;
+}
+
 *,
 :before,
 :after {
@@ -8,6 +18,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+<<<<<<< Updated upstream
 :root {
   --first-color: #fcfcfc;
   --second-color: #131313;
@@ -16,6 +27,8 @@ body {
   --title-font: "Seymour One", sans-serif;
 }
 
+=======
+>>>>>>> Stashed changes
 h1,
 h2,
 h3,
