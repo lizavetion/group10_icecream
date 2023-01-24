@@ -25,17 +25,17 @@ margin-right: auto;
 	height: 65px;
 }
 .nav-list{
-	margin-bottom: 0px;
-    margin-top: 0px;
-    padding-left: 0px;
-    margin-right: 0px;
+	margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    margin-right: 0;
 }
 
 .nav-link {
 	font-weight: 700;
 }
 .nav-item:hover{
-	cursor: url("../images/Cursor.png");
+	cursor: url("../images/Cursor.png"), pointer;
 }
 .button-buy-now {
 	display: block;
@@ -291,7 +291,7 @@ margin-right: auto;
 		color: var(--first-color);
 	}
 .nav-link:hover{
-	cursor: url("./images/Cursor.png");
+	cursor: url("../images/Cursor.png"), pointer;
 }
 	.nav-link:hover {
 		color:  var(--default-btn-color);
@@ -308,6 +308,7 @@ margin-right: auto;
 		margin-right: 28px;
 	}
 }
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -410,7 +411,7 @@ margin-right: auto;
       rgba(156, 190, 143, 0.7)
     ),
     #d9d9d9;
-  box-shadow: 0px 5.26027px 19.726px rgba(10, 136, 23, 0.25);
+  box-shadow: 0 5.26027px 19.726px rgba(10, 136, 23, 0.25);
 }
 
 .yellou .circle-gradient {
@@ -420,7 +421,7 @@ margin-right: auto;
       rgba(248, 210, 78, 0.7)
     ),
     #d9d9d9;
-  box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
+  box-shadow: 0 5.26027px 19.726px rgba(153, 114, 23, 0.25);
 }
 .brovn .circle-gradient {
   background: linear-gradient(
@@ -429,7 +430,7 @@ margin-right: auto;
       rgba(213, 117, 63, 0.7)
     ),
     #d9d9d9;
-  box-shadow: 0px 5.26027px 19.726px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5.26027px 19.726px rgba(0, 0, 0, 0.25);
 }
 
 .modal-card-img {
