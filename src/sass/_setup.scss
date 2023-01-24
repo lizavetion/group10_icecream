@@ -6,6 +6,8 @@
   --hover-btn-color: #0a8817;
   --disabled-btn-color: #ababab;
   --accent-text-color: #d6936d;
+  --primary-text-font: "Montserrat", sans-serif;
+  --title-font: "Seymour One", sans-serif;
 }
 
 *,
@@ -16,6 +18,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+
   @media screen and (max-width: 767px) {
     background-image: url(../images/backgroud_mobile.jpg);
     background-size: 100%;
@@ -47,6 +50,7 @@ body {
     screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     background-image: url(../images/Backgroud_desktop@2x.jpg);
   }
+
 }
 
 h1,
@@ -68,6 +72,7 @@ img {
 .list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .link {
