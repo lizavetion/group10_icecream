@@ -20,6 +20,7 @@
 }
 .adv-list {
   padding-top: 60px;
+  padding-left: 0;
   padding-bottom: 68px;
 }
 .adv-list > li {
@@ -55,7 +56,6 @@
   line-height: 1.7;
   text-align: center;
   margin: 0 auto;
-  /* margin-top: auto; */
   padding-bottom: 16px;
 }
 /* ============Mobile============ */
@@ -125,6 +125,7 @@
     height: 225px;
   }
   .adv-list {
+    padding-top: 146px;
     row-gap: 32px;
   }
   .adv-list p {
