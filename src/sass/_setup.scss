@@ -1,3 +1,15 @@
+:root {
+  --first-color: #fcfcfc;
+  --second-color: #131313;
+  --background-color: #84a178;
+  --default-btn-color: #f8d24e;
+  --hover-btn-color: #0a8817;
+  --disabled-btn-color: #ababab;
+  --accent-text-color: #d6936d;
+  --primary-text-font: "Montserrat", sans-serif;
+  --title-font: "Seymour One", sans-serif;
+}
+
 *,
 :before,
 :after {
@@ -6,12 +18,6 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-}
-
-:root {
-  --first-color: #fcfcfc;
-  --second-color: #131313;
-  --background-color: #84a178;
 }
 
 h1,
