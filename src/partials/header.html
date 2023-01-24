@@ -1,92 +1,137 @@
 
-    <div class="backdrop is-hidden "data-modal  >
+<!-- додати на кнопку відкриття модального вікна атрибут  data-modal-pc-open -->
 
-      <div class="modal-product-card">
-        <div class="modalProduct">
-        <button type="button" class="modal-close-btn" data-modal-close  >
-          <svg class="modal-close-btn-icon" width="14" height="14">
-            <use href="/src/images/icons.svg#modal-close-icon"></use>
-          </svg>
-       </button>
 
-    <!-- ====  form  ==== -->
+<div class="backdrop is-hidden" data-modal-pc>
+  <div class="modal-product-card">
+    <div class="modalProduct">
+      <button type="button" class="modal-close-btn" data-modal-pc-close>
+        <svg class="modal-close-btn-icon" width="14" height="14">
+          <use href="/src/images/icons.svg#modal-close-icon"></use>
+        </svg>
+      </button>
+
+      <!-- ====  form  ==== -->
 
       <h2 class="product-card-head">Buy now</h2>
       <form class="product-card-form">
-
-      <ul class="modal-card-list">
-  <li class="modal-card-input modal-ice-cream">
-  <input id="check1" type="checkbox" name="check1" class="checkbox visually-hidden">
-  <label class="modal_buy-checkbox" for="check1">
-  <span class="custom-checkbox green">
-  <span class="circle-gradient">
-  <span class="modal-card-img" >
-  <img
-  srcset="/src/images/modal_product_img/icecream@1x.png 1x, /src/images/modal_product_img/icecream@2x.png 2x"
-  src="/src/images/modal_product_img/icecream@1x.png" alt="ice cream">
-  </span>
-</span>
-          <span class="product-card-text">ice cream</span>
-  </span>
-           </label>
+        <ul class="modal-card-list">
+          <li class="modal-card-input modal-ice-cream">
+            <input
+              id="check1"
+              type="checkbox"
+              name="check1"
+              class="checkbox visually-hidden"
+            />
+            <label class="modal_buy-checkbox" for="check1">
+              <span class="custom-checkbox green">
+                <span class="circle-gradient">
+                  <span class="modal-card-img">
+                    <img
+                      srcset="
+                        /src/images/modal_product_img/icecream@1x.png 1x,
+                        /src/images/modal_product_img/icecream@2x.png 2x
+                      "
+                      src="/src/images/modal_product_img/icecream@1x.png"
+                      alt="ice cream"
+                    />
+                  </span>
+                </span>
+                <span class="product-card-text">ice cream</span>
+              </span>
+            </label>
           </li>
 
           <li class="modal-card-input">
-              <input id="check2" type="checkbox" name="check2" class="checkbox visually-hidden">
-              <label class="modal_buy-checkbox" for="check2">
+            <input
+              id="check2"
+              type="checkbox"
+              name="check2"
+              class="checkbox visually-hidden"
+            />
+            <label class="modal_buy-checkbox" for="check2">
               <span class="custom-checkbox yellou">
-              <span class="circle-gradient">
-              <span class="modal-card-img" >
-              <img
-              srcset="/src/images/modal_product_img/icecoffee@1x.png 1x, /src/images/modal_product_img/icecoffee@2x.png 2x"
-              src="/src/images/modal_product_img/icecoffee@1x.png" alt="ice coffee">
-                      </span>
+                <span class="circle-gradient">
+                  <span class="modal-card-img">
+                    <img
+                      srcset="
+                        /src/images/modal_product_img/icecoffee@1x.png 1x,
+                        /src/images/modal_product_img/icecoffee@2x.png 2x
+                      "
+                      src="/src/images/modal_product_img/icecoffee@1x.png"
+                      alt="ice coffee"
+                    />
                   </span>
-                      <span class="product-card-text">ice coffee</span>
-                      </span>
-                       </label>
-                      </li>
+                </span>
+                <span class="product-card-text">ice coffee</span>
+              </span>
+            </label>
+          </li>
 
-                      <li class="modal-card-input ">
-                          <input id="check3" type="checkbox" name="check3" class="checkbox visually-hidden">
-                          <label class="modal_buy-checkbox" for="check3">
-                          <span class="custom-checkbox brovn">
-                          <span class="circle-gradient">
-                          <span class="modal-card-img" >
-                            <img
-                            srcset="/src/images/modal_product_img/milchake1@1x.png 1x, /src/images/modal_product_img/milchake1@2x.png 2x"
-                            src="/src/images/modal_product_img/milchake1@1x.png" alt="ice cream">
-                                  </span>
-                              </span>
-                                  <span class="product-card-text">milchake</span>
-                                  </span>
-                                   </label>
-                                  </li>
-      </ul>
-           <div class="form-input-text">
-              <div class="form-filed">
-                  <label  for="user-name" class="form-label "></label>
-               <input type="text" class="form-input formfield" id="user-name" title="Ваше імя"  pattern="[A-Za-zА-Яа-я' І-Їі-ї]{2,}"  placeholder="Name" >
+          <li class="modal-card-input">
+            <input
+              id="check3"
+              type="checkbox"
+              name="check3"
+              class="checkbox visually-hidden"
+            />
+            <label class="modal_buy-checkbox" for="check3">
+              <span class="custom-checkbox brovn">
+                <span class="circle-gradient">
+                  <span class="modal-card-img">
+                    <img
+                      srcset="
+                        /src/images/modal_product_img/milchake1@1x.png 1x,
+                        /src/images/modal_product_img/milchake1@2x.png 2x
+                      "
+                      src="/src/images/modal_product_img/milchake1@1x.png"
+                      alt="ice cream"
+                    />
+                  </span>
+                </span>
+                <span class="product-card-text">milchake</span>
+              </span>
+            </label>
+          </li>
+        </ul>
+        <div class="form-input-text">
+          <div class="form-filed">
+            <label for="user-name" class="form-label"></label>
+            <input
+              type="text"
+              class="form-input formfield"
+              id="user-name"
+              title="Ваше імя"
+              pattern="[A-Za-zА-Яа-я' І-Їі-ї]{2,}"
+              placeholder="Name"
+            />
+          </div>
 
-                  </div>
-
-                  <div class="form-filed">
-                  <label for="tel" >  <span class="modal-form-text"></span></label>
-                   <input type="tel" class="form-input formfield" id="tel" placeholder="Phone" title="прохання вводити лише цифри"   pattern="\+?[0-9\s\-\(\)]+">
-                  </div>
-                  <div class="form-filed">
-                      <label for="coment" class="form-label"><span class="modal-form-text"></span>
-                      <textarea class="form-message" name="user-message" id=""  placeholder="Comment"></textarea></label>
-                      </div>
-      </div>
-                      <button class="button-form-submit" type="submit">Submit</button>
-
-
-            </form>
-
-      </div>
-
-
+          <div class="form-filed">
+            <label for="tel"> <span class="modal-form-text"></span></label>
+            <input
+              type="tel"
+              class="form-input formfield"
+              id="tel"
+              placeholder="Phone"
+              title="прохання вводити лише цифри"
+              pattern="\+?[0-9\s\-\(\)]+"
+            />
+          </div>
+          <div class="form-filed">
+            <label for="coment" class="form-label"
+              ><span class="modal-form-text"></span>
+              <textarea
+                class="form-message"
+                name="user-message"
+                id=""
+                placeholder="Comment"
+              ></textarea>
+            </label>
+          </div>
+        </div>
+        <button class="button-form-submit" type="submit">Submit</button>
+      </form>
     </div>
-
-      </div>
+  </div>
+</div>
