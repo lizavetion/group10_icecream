@@ -1,6 +1,8 @@
 @media screen and (max-width: 479px) {
     .contacts-section {
-        background-color: #84A178;
+        background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0) 25%,
+            rgba(132, 161, 120, 1) 25%);
     }
 
     .contacts-conteiner {
@@ -164,7 +166,9 @@
 
 @media screen and (min-width: 480px) {
     .contacts-section {
-        background-color: #84A178;
+        background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0) 25%,
+            rgba(132, 161, 120, 1) 25%);
     }
 
     .contacts-conteiner {
@@ -331,7 +335,9 @@
 
 @media screen and (min-width: 768px) {
     .contacts-section {
-        background-color: #84A178;
+        background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0) 20%,
+            rgba(132, 161, 120, 1) 20%);
     }
 
     .contacts-conteiner {
@@ -503,7 +509,6 @@
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
-        outline: 2px solid red;
     }
 
     .contacts-ul {
