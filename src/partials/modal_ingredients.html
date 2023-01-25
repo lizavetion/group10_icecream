@@ -1,0 +1,90 @@
+<div class="modal modal_ingredients" data-modal="modal_ingredients">
+  <button class="modal__close-btn js-modal-close" type="button">
+    <svg class="modal__cross">
+      <use href="./images/icons.svg#modal-close-icon"></use>
+    </svg>
+  </button>
+  <h2 class="modal__title">Chololate icecream</h2>
+  <div class="modal-img">
+    <img
+      class="modal-icecream-picture"
+      srcset="./images/modal_ingredients/image2x.png 2x"
+      src="./images/modal_ingredients/image.png"
+      alt="ice cream photo"
+    />
+  </div>
+  <ul class="organic-container">
+    <li class="organic-title">
+      <div class="organic-value-container">
+        <span>320</span>
+      </div>
+      <div class="calories-name">kcal</div>
+    </li>
+    <li class="organic-title">
+      <div class="organic-value-container">
+        <span>4g </span>
+      </div>
+      <div class="calories-name protein-mobile">Prote...</div>
+      <div class="calories-name protein-desktop">Protein...</div>
+    </li>
+    <li class="organic-title">
+      <div class="organic-value-container">
+        <span>8,2g </span>
+      </div>
+      <div class="calories-name">Fats</div>
+    </li>
+    <li class="organic-title">
+      <div class="organic-value-container">
+        <span>40,4g </span>
+      </div>
+      <div class="calories-name">Carbs</div>
+    </li>
+  </ul>
+  <h3 class="ingredients-title">Ingredients</h3>
+  <div class="ingredients-container">
+    <ul class="ingredients-list">
+      <li>Milk</li>
+      <li>Belgian chocolate</li>
+      <li>Cream</li>
+      <li>Cocoa powder</li>
+      <li>Sugar</li>
+      <li>Vanilla sugar</li>
+    </ul>
+    <ul class="ingredients-list">
+      <li>100ml</li>
+      <li>20g</li>
+      <li>150 ml</li>
+      <li>30g</li>
+      <li>40g</li>
+      <li>10g</li>
+    </ul>
+  </div>
+  <form class="form-container">
+    <input
+      class="form__input"
+      type="text"
+      name="name"
+      placeholder="Name"
+      required
+      pattern="[A-Za-zА-Яа-я' І-Їі-ї]{2,}"
+      title="Enter at least two letters"
+    />
+    <input
+      class="form__input"
+      type="text"
+      name="tel"
+      placeholder="Phone"
+      required
+      pattern="[+0-9]{13}"
+      title="Format: +380*********"
+    />
+    <textarea
+      class="form__input form__input-commentary"
+      name="comment"
+      cols="30"
+      rows="10"
+      placeholder="Comment"
+    ></textarea>
+    <button class="form-button" type="submit">Submit</button>
+  </form>
+</div>
