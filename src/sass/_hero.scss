@@ -55,16 +55,30 @@
 }
 
 .hero-btn-item {
-    padding: 11px 26px;
     border: 2px solid #f8d24e;
     border-radius: 8px;
 }
 
+.hero-btn-item:hover {
+    border-color: var(--hover-btn-color);
+    cursor: url("../images/Cursor.png");
+}
+
 .hero-btn-link {
+    display: block;
+    padding: 11px 26px;
     font-weight: 600;
     font-size: 12px;
     line-height: 1.25;
     color: #000000;
+}
+
+.hero-btn-item:nth-child(2):hover .hero-btn-link {
+    color: var(--hover-btn-color);
+}
+
+.hero-btn-item:nth-child(2):disabled .hero-btn-link {
+    color: var(--disabled-btn-color);
 }
 
 .hero-btn-item:last-child {
@@ -239,13 +253,21 @@
     }
 
     .hero-btn-item {
-        padding: 12px 34px;
         border: 2px solid #f8d24e;
         border-radius: 8px;
     }
 
+    .hero-btn-item:disabled {
+        border-color: var(--disabled-btn-color);
+    }
+
     .hero-btn-link {
+        padding: 12px 34px;
         font-size: 14px;
+    }
+
+    .hero-btn-link:focus {
+        color: var(--first-color);
     }
 
     .cafe-points-list {
