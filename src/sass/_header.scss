@@ -25,17 +25,17 @@
   height: 65px;
 }
 .nav-list{
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-left: 0;
-  margin-right: 0;
+	margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    margin-right: 0;
 }
 
 .nav-link {
   font-weight: 700;
 }
 .nav-item:hover{
-  cursor: url("../images/Cursor.png"), pointer;
+	cursor: url("../images/Cursor.png"), pointer;
 }
 .button-buy-now {
   display: block;
@@ -409,8 +409,8 @@
       0deg,
       rgba(156, 190, 143, 0.7),
       rgba(156, 190, 143, 0.7)
-  ),
-  #d9d9d9;
+    ),
+    #d9d9d9;
   box-shadow: 0 5.26027px 19.726px rgba(10, 136, 23, 0.25);
 }
 
@@ -419,8 +419,8 @@
       0deg,
       rgba(248, 210, 78, 0.7),
       rgba(248, 210, 78, 0.7)
-  ),
-  #d9d9d9;
+    ),
+    #d9d9d9;
   box-shadow: 0 5.26027px 19.726px rgba(153, 114, 23, 0.25);
 }
 .brovn .circle-gradient {
@@ -428,8 +428,8 @@
       0deg,
       rgba(213, 117, 63, 0.7),
       rgba(213, 117, 63, 0.7)
-  ),
-  #d9d9d9;
+    ),
+    #d9d9d9;
   box-shadow: 0 5.26027px 19.726px rgba(0, 0, 0, 0.25);
 }
 
