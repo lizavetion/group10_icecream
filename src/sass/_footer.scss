@@ -124,11 +124,17 @@
     &:hover,
     &:focus {
         color: var(--first-color);
+		fill: var(--first-color);
     }
 }
 
 .footer-social-icon {
     fill: currentColor;
+}
+
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+	fill: var(--first-color);
 }
 
 .footer-tel {
