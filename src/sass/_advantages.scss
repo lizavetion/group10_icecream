@@ -1,8 +1,7 @@
 .adv {
   background-color: var(--background-color);
-}
-.container {
-  min-width: 320px;
+  padding-bottom: 43px;
+  padding-top: 60px;
 }
 .adv-title {
   display: none;
@@ -19,9 +18,7 @@
   letter-spacing: 1.44px;
 }
 .adv-list {
-  padding-top: 60px;
   padding-left: 0;
-  padding-bottom: 68px;
 }
 .adv-list > li {
   list-style: none;
@@ -61,13 +58,10 @@
 /* ============Mobile============ */
 
 @media screen and (min-width: 480px) {
-  .adv-list {
-    padding-bottom: 81px;
-  }
-
+ 
   .adv-list > li {
-    width: 230px;
-    height: 166px;
+    max-width: 230px;
+    max-height: 166px;
   }
   .adv-list li:not(:last-child) {
     margin-bottom: 32px;
@@ -83,6 +77,10 @@
 /* ============Tablet============ */
 
 @media screen and (min-width: 768px) {
+.adv {
+  padding-bottom: 60px;
+  padding-top: 80px;
+}
   .adv-h3 {
     font-size: 48px;
     height: 59px;
@@ -92,11 +90,10 @@
   .adv-list {
     display: flex;
     row-gap: 50px;
-    padding-bottom: 178px;
   }
   .adv-list > li {
-    width: 152px;
-    height: 241px;
+    max-width: 152px;
+    max-height: 241px;
     padding-bottom: 0;
   }
   .adv-list li:not(:last-child) {
@@ -114,6 +111,10 @@
 /* ============Desctop============ */
 
 @media screen and (min-width: 1200px) {
+  .adv {
+    padding-bottom: 90px;
+    padding-top: 146px;
+  }
   .adv-h3 {
     font-size: 58px;
     height: 71px;
@@ -121,11 +122,10 @@
   }
 
   .adv-list > li {
-    width: 368px;
-    height: 225px;
+    max-width: 368px;
+    max-height: 225px;
   }
   .adv-list {
-    padding-top: 146px;
     row-gap: 32px;
   }
   .adv-list p {
