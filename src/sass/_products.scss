@@ -8,6 +8,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 }
 
 .products-sub-tittle {
@@ -162,50 +165,27 @@ background-color: #D6936D;
 
 /* ===============BACKGROUND_IMG=================== */
 
-// @media screen and (max-width: 767px) {
-//   .product-list {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     row-gap: 168px;
-//   }
-// }
+@media screen and (max-width: 767px) {
+  .product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 168px;
+  }
+}
 
 // @media screen and (min-width: 320px) and (max-width: 767px) {
 //   .products-section {
 //     padding-top: 60px;
 //     padding-bottom: 60px;
-//     background-image: url(../images/backgroud_mobile.jpg);
 //   }
 // }
 
-// @media screen and (min-device-pixel-ratio: 2),
-//   screen and (min-resolution: 192dpi),
-//   screen and (min-resolution: 2dppx),
-//   screen and (min-width: 320px) {
-//   .products-section {
-//     padding-top: 60px;
-//     padding-bottom: 60px;
-//     background-image: url(../images/backgroud_mobile@2x.jpg);
-//   }
-// }
 
 // @media screen and (min-width: 768px) and (max-width: 1199px) {
 //   .products-section {
 //     padding-top: 60px;
 //     padding-bottom: 60px;
-//     background-image: url(../images/background_tablet-1.jpg);
-//   }
-// }
-
-// @media screen and (min-device-pixel-ratio: 2),
-//   screen and (min-resolution: 192dpi),
-//   screen and (min-resolution: 2dppx),
-//   screen and (min-width: 768px) {
-//   .products-section {
-//     padding-top: 60px;
-//     padding-bottom: 60px;
-//     background-image: url(../images/background_tablet@2x.jpg);
 //   }
 // }
 
@@ -213,20 +193,10 @@ background-color: #D6936D;
 //   .products-section {
 //     padding-top: 60px;
 //     padding-bottom: 60px;
-//     background-image: url(../images/backgroud_desktop.jpg);
+  
 //   }
 // }
 
-// @media screen and (min-device-pixel-ratio: 2),
-//   screen and (min-resolution: 192dpi),
-//   screen and (min-resolution: 2dppx),
-//   screen and (min-width: 1200px) {
-//   .products-section {
-//     padding-top: 60px;
-//     padding-bottom: 60px;
-//     background-image: url(../images/Backgroud_desktop@2x.jpg);
-//   }
-// }
 
 /* ==================Tablet====================== */
 
@@ -314,7 +284,7 @@ background-color: #D6936D;
     margin-right: auto;
   }
   .products-tittle {
-    font-family: var(--secondary-font);
+    font-family: var(--title-font);
     font-weight: 400;
     font-size: 36px;
     line-height: 1.2;
