@@ -25,7 +25,7 @@
 }
 
 .products-tittle {
-  font-family: var(--secondary-font);
+  font-family: var(--title-font);
   font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
@@ -93,12 +93,12 @@ background-color: #D6936D;
 
 @media screen and (max-width: 480px) {
   .container {
-    max-width: 320px;
+    // max-width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
   .product-wrapper {
-    width: 320px;
+    width: 280px;
   }
 }
 
