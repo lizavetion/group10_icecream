@@ -117,7 +117,8 @@
     margin: 0 auto;
   }
   .close-menu{
-    right: 20px;
+    top: 26px;
+    right: 26px;
   }
   .menu-nav{
     padding-left: 20px;
@@ -154,8 +155,8 @@
 
   .close-menu {
     position: absolute;
-    top: 16px;
-    right: 30px;
+    top: 36px;
+    right: 38px;
     border: none;
     background-color: transparent;
   }
@@ -212,7 +213,6 @@
 @media screen and (max-width: 1199px) {
   .close-menu {
     position: absolute;
-    top: 16px;
     border: none;
     background-color: transparent;
   }
